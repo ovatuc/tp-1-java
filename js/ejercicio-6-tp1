@@ -1,1 +1,9 @@
 //6.- Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+
+if (numero1 > numero2) {
+  document.write("El numero mayor es el numero 1: " + numero1);
+} else if (numero1 === numero2) {
+  document.write("Los numeros ingresados son iguales " + numero1);
+} else {
+  document.write("El numero 2 es mayor, numero 2: " + numero2);
+}
